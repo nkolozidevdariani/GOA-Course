@@ -7,4 +7,4 @@ for num in range(10,20+1):
 
 
 
-print(numbers_list[0::2])
+print(numbers_list[::2])
