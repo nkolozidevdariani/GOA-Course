@@ -1,11 +1,9 @@
-def calculate_arithmetic(start, end):
-    numbers = []
+"""დავალება2: შექმენით ფუნქცია, რომელსაც გადაეცემა start, end. ამ შემთხვევაში გამოთვალეთ მათ შორის არსებული რიცხვების ჯამი"""
+def sum_range(start, end):
+    sum = 0
 
     for i in range(start, end):
-        numbers.append(i)
-    
-    result = sum(numbers) / len(numbers)
+        sum += i
+    return sum
 
-    print(result)
-
-calculate_arithmetic(5, 11)
+print(sum_range(5, 11))
